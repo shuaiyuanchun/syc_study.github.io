@@ -1,0 +1,136 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* top */
+    .top{
+        margin: 0 auto ;
+        width: 900px;
+        height: 100px;
+        background-color: rgb(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255) );
+        background-image: url('/images/3.jpg');
+        background-size: 100%;
+        padding: 20px;
+        opacity: 0.95;
+    }
+    .top-image{
+        width: 90px;
+        border-radius: 80px;
+        overflow: hidden;
+    }
+    .top-image img{
+        width: 90px;
+    }
+    
+   
+    /* a{
+        text-decoration: none;
+    }
+    table td{
+        text-align: center;
+    }
+    .th{
+        background-color: rgb(207, 200, 200);
+        opacity: 0.2;
+    } */
+    h1{
+        font-size: 55px;
+        color: rgb(217, 224, 235);
+    }
+    /* 导航栏 */
+    .nav{
+        height: 50px;
+        width: 940px;
+        margin: 0 auto;
+        /* background-color: rgb(204, 218, 228); */
+        background: -webkit-linear-gradient(left, rgb(112, 176, 212), rgb(156, 212, 245), rgb(193, 222, 231), rgb(227, 235, 238), rgb(247, 250, 255));
+    }
+     ul li{
+        list-style: none;
+        /* 去掉列表的点  */
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .li1{
+        
+        background-color: rgb(85, 130, 150);
+   }
+    .nav>li{
+        position: relative;
+        float: right;
+        width: 15%;
+        height: 100%;
+        text-align: center;
+        line-height: 55px;
+        color: rgb(88, 110, 119);
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .nav>li:hover{
+        color: rgb(228, 243, 255);
+        background-color:rgb(85, 130, 150);
+    }
+    /* 下部分 */
+    .item-top{
+        width: 940px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: rgb(228, 247, 255);  
+    }
+    .item {
+        height: 340px;
+        width: 880px;
+        margin: 0 auto;
+    }
+
+    /* .item:last-child {
+        border-bottom: 0;
+    } */
+
+    .item>a div {
+        float: left;
+    }
+
+    .item-left {
+        width: 49%;
+        height: 94.5%;
+        border: 1px solid;
+        margin-top: 15px;
+    }
+
+    .item-left h5 {
+        margin: 10px 15px;
+        /* text-align: center; */
+        font-size: 18px;
+    }
+
+    .item-left p {
+        margin: 0 15px 10px 15px;
+        line-height: 32px;
+    }
+
+    .item-right {
+        width: 50%;
+        height: 100%;
+    }
+
+    .item-right>div {
+        float: left;
+        width: 95%;
+        height: 95%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .item-right>div:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .item-right>div img {
+        width: 100%;
+        height: 100%;
+    }
+   

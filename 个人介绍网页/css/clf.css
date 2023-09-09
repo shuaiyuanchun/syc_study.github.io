@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top */
+.top{
+    margin: 0 auto ;
+    width: 900px;
+    height: 100px;
+    background-color: rgb(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255) );
+    background-image: url('/images/3.jpg');
+    background-size: 100%;
+    padding: 20px;
+    opacity: 0.95;
+}
+.top-image{
+    width: 90px;
+    border-radius: 80px;
+    overflow: hidden;
+}
+.top-image img{
+    width: 90px;
+}
+
+
+/* a{
+    text-decoration: none;
+}
+table td{
+    text-align: center;
+}
+.th{
+    background-color: rgb(207, 200, 200);
+    opacity: 0.2;
+} */
+h1{
+    font-size: 55px;
+    color: rgb(217, 224, 235);
+}
+/* 导航栏 */
+.nav{
+    height: 50px;
+    width: 940px;
+    margin: 0 auto;
+    /* background-color: rgb(204, 218, 228); */
+    background: -webkit-linear-gradient(left, rgb(112, 176, 212), rgb(156, 212, 245), rgb(193, 222, 231), rgb(227, 235, 238), rgb(247, 250, 255));
+}
+ ul li{
+    list-style: none;
+    /* 去掉列表的点  */
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.li1{
+    
+    background-color: rgb(85, 130, 150);
+}
+.nav>li{
+    position: relative;
+    float: right;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    line-height: 55px;
+    color: rgb(88, 110, 119);
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav>li:hover{
+    color: rgb(228, 243, 255);
+    background-color:rgb(85, 130, 150);
+}
+
+/* 联系方式 */
+.main{
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 150px;
+    opacity: 0.9;
+}
+.main img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.main img:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+/* 联系方式图片 */
+.root-con1 {
+    margin-left: 530px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    float: left;
+    width: 200px;
+    height: 140px;
+}
+
+.root-con-1 {
+    font-size: 17px;
+    width: 200px;
+    color: rgb(50, 50, 50);
+}
+
+.con-1-1 a {
+    color: rgb(127, 127, 127);
+}
+
+.con-1-1 a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(127, 127, 127);
+}
+
+.con-1-1 {
+    margin-top: 20px;
+    width: 200px;
+    color: rgb(127, 127, 127);
+}
+.con2 {
+    font-family: serif;
+    font-weight: bolder;
+    width: 500px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 200px;
+    font-size: 18px;
+    color: rgb(134, 131, 131);
+}
+.con2 a {
+    display: block;
+    height: 40px;
+}
+
+.con2-a {
+    width: 200px;
+    float: right;
+}
+
+.con2 img {
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}

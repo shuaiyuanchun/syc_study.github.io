@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top */
+.top{
+    margin: 0 auto ;
+    width: 900px;
+    height: 100px;
+    background-color: rgb(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255) );
+    background-image: url('/images/3.jpg');
+    background-size: 100%;
+    padding: 20px;
+    opacity: 0.95;
+}
+.top-image{
+    width: 90px;
+    border-radius: 80px;
+    overflow: hidden;
+}
+.top-image img{
+    width: 90px;
+}
+
+
+/* a{
+    text-decoration: none;
+}
+table td{
+    text-align: center;
+}
+.th{
+    background-color: rgb(207, 200, 200);
+    opacity: 0.2;
+} */
+h1{
+    font-size: 55px;
+    color: rgb(217, 224, 235);
+}
+/* 导航栏 */
+.nav{
+    height: 50px;
+    width: 940px;
+    margin: 0 auto;
+    /* background-color: rgb(204, 218, 228); */
+    background: -webkit-linear-gradient(left, rgb(112, 176, 212), rgb(156, 212, 245), rgb(193, 222, 231), rgb(227, 235, 238), rgb(247, 250, 255));
+}
+ ul li{
+    list-style: none;
+    /* 去掉列表的点  */
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.li1{
+    
+    background-color: rgb(85, 130, 150);
+}
+.nav>li{
+    position: relative;
+    float: right;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    line-height: 55px;
+    color: rgb(88, 110, 119);
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav>li:hover{
+    color: rgb(228, 243, 255);
+    background-color:rgb(85, 130, 150);
+}
+/* 下部分*/
+.item-top{
+    width: 940px;
+    height: 80%;
+    background-color: rgb(209, 232, 238);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    flex-basis: calc(75% / 3);
+    float: left;
+    background-color: rgb(234, 239, 243);
+    height: 70%;
+    margin: 30px auto;
+}
+.item img{
+    width: 220px;
+    height: 180px;
+    margin: 10px 10px 0 10px;
+}
+.div1{
+    width: 220px;
+    height: 30px;
+    background-color: rgb(163, 198, 221);
+    margin: 5px 10px;    
+}
+.item h5{
+    margin: 10px;
+    font-size: 16px;
+}
+.item p{
+    margin: 0 15px 10px 15px;
+    line-height: 27px;
+}
